@@ -3,7 +3,6 @@
   "type": "module",
   "version": "1.1.0",
   "scripts": {
-    "start": "bun src",
     "dev": "bun run --hot src/index.ts --console-depth=10",
     "lint": "bunx @biomejs/biome check",
     "typecheck": "tsc --noEmit",

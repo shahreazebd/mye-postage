@@ -1,5 +1,5 @@
 import { app } from "@/app"
-import { env } from "@/lib/env"
+// import { env } from "@/lib/env"
 import type { ServerWebSocket } from "bun"
 import { createBunWebSocket } from "hono/bun"
 
@@ -94,9 +94,9 @@ app.get(
 
 Bun.serve({
   idleTimeout: 255,
-  port: env.PORT,
+  port: 9090,
   fetch: app.fetch,
   websocket,
 })
 
-export default app
+// export default app
