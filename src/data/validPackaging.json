@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "name": "Letter",
+    "value": "Letter",
+    "icon": "letter",
+    "maxWeight": 100,
+    "cost": 0.75,
+    "currency": "£",
+    "unit": {
+      "weight": "g",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 24,
+      "width": 16,
+      "depth": 0.5
+    },
+    "services": [
+      {
+        "shippingServiceID": 33,
+        "serviceCode": "BPL1",
+        "serviceName": "Royal Mail 1st Class",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 35,
+        "serviceCode": "BPL2",
+        "serviceName": "Royal Mail 2nd Class",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 36,
+        "serviceCode": "BPR1",
+        "serviceName": "Royal Mail 1st Class Signed For",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 37,
+        "serviceCode": "BPR2",
+        "serviceName": "Royal Mail 2nd Class Signed For",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 103,
+        "serviceCode": "OLA",
+        "serviceName": "International Standard On Account",
+        "deliverySpeedMye": "",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 11,
+        "serviceCode": "SD3",
+        "serviceName": "Special Delivery Guaranteed by 9am - £1000",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 12,
+        "serviceCode": "SD6",
+        "serviceName": "Special Delivery Guaranteed by 9am - £2500",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4329,
+        "serviceCode": "SDV",
+        "serviceName": "Special Delivery Guaranteed Age £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4330,
+        "serviceCode": "SDW",
+        "serviceName": "Special Delivery Guaranteed Age £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4331,
+        "serviceCode": "SDX",
+        "serviceName": "Special Delivery Guaranteed Age £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4332,
+        "serviceCode": "SDY",
+        "serviceName": "Special Delivery Guaranteed ID £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4333,
+        "serviceCode": "SDZ",
+        "serviceName": "Special Delivery Guaranteed ID £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4334,
+        "serviceCode": "SEA",
+        "serviceName": "Special Delivery Guaranteed ID £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4326,
+        "serviceCode": "SEB",
+        "serviceName": "Special Delivery Guaranteed £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4327,
+        "serviceCode": "SEC",
+        "serviceName": "Special Delivery Guaranteed £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4328,
+        "serviceCode": "SED",
+        "serviceName": "Special Delivery Guaranteed £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 17,
+        "serviceCode": "STL1",
+        "serviceName": "1st Class Account Mail",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 34,
+        "serviceCode": "STL2",
+        "serviceName": "2nd Class Account Mail",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Large Letter",
+    "value": "LargeLetter",
+    "icon": "large-letter",
+    "maxWeight": 750,
+    "cost": 1.05,
+    "currency": "£",
+    "unit": {
+      "weight": "g",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 35.3,
+      "width": 25,
+      "depth": 2.5
+    },
+    "services": [
+      {
+        "shippingServiceID": 33,
+        "serviceCode": "BPL1",
+        "serviceName": "Royal Mail 1st Class",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 35,
+        "serviceCode": "BPL2",
+        "serviceName": "Royal Mail 2nd Class",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 36,
+        "serviceCode": "BPR1",
+        "serviceName": "Royal Mail 1st Class Signed For",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 37,
+        "serviceCode": "BPR2",
+        "serviceName": "Royal Mail 2nd Class Signed For",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 1,
+        "serviceCode": "CRL24",
+        "serviceName": "Royal Mail 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 2,
+        "serviceCode": "CRL48",
+        "serviceName": "Royal Mail 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 103,
+        "serviceCode": "OLA",
+        "serviceName": "International Standard On Account",
+        "deliverySpeedMye": "",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 11,
+        "serviceCode": "SD3",
+        "serviceName": "Special Delivery Guaranteed by 9am - £1000",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 12,
+        "serviceCode": "SD6",
+        "serviceName": "Special Delivery Guaranteed by 9am - £2500",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4329,
+        "serviceCode": "SDV",
+        "serviceName": "Special Delivery Guaranteed Age £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4330,
+        "serviceCode": "SDW",
+        "serviceName": "Special Delivery Guaranteed Age £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4331,
+        "serviceCode": "SDX",
+        "serviceName": "Special Delivery Guaranteed Age £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4332,
+        "serviceCode": "SDY",
+        "serviceName": "Special Delivery Guaranteed ID £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4333,
+        "serviceCode": "SDZ",
+        "serviceName": "Special Delivery Guaranteed ID £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4334,
+        "serviceCode": "SEA",
+        "serviceName": "Special Delivery Guaranteed ID £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4326,
+        "serviceCode": "SEB",
+        "serviceName": "Special Delivery Guaranteed £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4327,
+        "serviceCode": "SEC",
+        "serviceName": "Special Delivery Guaranteed £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4328,
+        "serviceCode": "SED",
+        "serviceName": "Special Delivery Guaranteed £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 17,
+        "serviceCode": "STL1",
+        "serviceName": "1st Class Account Mail",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 34,
+        "serviceCode": "STL2",
+        "serviceName": "2nd Class Account Mail",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 3,
+        "serviceCode": "TPN24",
+        "serviceName": "Tracked 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 4,
+        "serviceCode": "TPS48",
+        "serviceName": "Tracked 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Small Parcel",
+    "value": "SmallParcel",
+    "icon": "small-parcel",
+    "maxWeight": 2,
+    "cost": 2.99,
+    "currency": "£",
+    "unit": {
+      "weight": "kg",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 45,
+      "width": 35,
+      "depth": 16
+    },
+    "services": [
+      {
+        "shippingServiceID": 33,
+        "serviceCode": "BPL1",
+        "serviceName": "Royal Mail 1st Class",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 35,
+        "serviceCode": "BPL2",
+        "serviceName": "Royal Mail 2nd Class",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 36,
+        "serviceCode": "BPR1",
+        "serviceName": "Royal Mail 1st Class Signed For",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 37,
+        "serviceCode": "BPR2",
+        "serviceName": "Royal Mail 2nd Class Signed For",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Medium Parcel",
+    "value": "MediumParcel",
+    "icon": "medium-parcel",
+    "maxWeight": 20,
+    "cost": 4.35,
+    "currency": "£",
+    "unit": {
+      "weight": "kg",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 46,
+      "width": 46,
+      "depth": 61
+    },
+    "services": [
+      {
+        "shippingServiceID": 33,
+        "serviceCode": "BPL1",
+        "serviceName": "Royal Mail 1st Class",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 35,
+        "serviceCode": "BPL2",
+        "serviceName": "Royal Mail 2nd Class",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 36,
+        "serviceCode": "BPR1",
+        "serviceName": "Royal Mail 1st Class Signed For",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 37,
+        "serviceCode": "BPR2",
+        "serviceName": "Royal Mail 2nd Class Signed For",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 50,
+        "isSignedFor": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tube",
+    "value": "Tube",
+    "icon": "tube",
+    "maxWeight": 20,
+    "cost": 4.35,
+    "currency": "£",
+    "unit": {
+      "weight": "kg",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 90
+    },
+    "meta": {
+      "line1": "Length + twice the diameter must be no more than 104cm"
+    },
+    "services": [
+      {
+        "shippingServiceID": 1,
+        "serviceCode": "CRL24",
+        "serviceName": "Royal Mail 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 2,
+        "serviceCode": "CRL48",
+        "serviceName": "Royal Mail 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 103,
+        "serviceCode": "OLA",
+        "serviceName": "International Standard On Account",
+        "deliverySpeedMye": "",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 11,
+        "serviceCode": "SD3",
+        "serviceName": "Special Delivery Guaranteed by 9am - £1000",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 12,
+        "serviceCode": "SD6",
+        "serviceName": "Special Delivery Guaranteed by 9am - £2500",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4329,
+        "serviceCode": "SDV",
+        "serviceName": "Special Delivery Guaranteed Age £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4330,
+        "serviceCode": "SDW",
+        "serviceName": "Special Delivery Guaranteed Age £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4331,
+        "serviceCode": "SDX",
+        "serviceName": "Special Delivery Guaranteed Age £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4332,
+        "serviceCode": "SDY",
+        "serviceName": "Special Delivery Guaranteed ID £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4333,
+        "serviceCode": "SDZ",
+        "serviceName": "Special Delivery Guaranteed ID £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4334,
+        "serviceCode": "SEA",
+        "serviceName": "Special Delivery Guaranteed ID £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4326,
+        "serviceCode": "SEB",
+        "serviceName": "Special Delivery Guaranteed £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4327,
+        "serviceCode": "SEC",
+        "serviceName": "Special Delivery Guaranteed £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4328,
+        "serviceCode": "SED",
+        "serviceName": "Special Delivery Guaranteed £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 17,
+        "serviceCode": "STL1",
+        "serviceName": "1st Class Account Mail",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 34,
+        "serviceCode": "STL2",
+        "serviceName": "2nd Class Account Mail",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 3,
+        "serviceCode": "TPN24",
+        "serviceName": "Tracked 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 4,
+        "serviceCode": "TPS48",
+        "serviceName": "Tracked 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Large Parcel",
+    "value": "Parcel",
+    "icon": "large-parcel",
+    "maxWeight": 30,
+    "cost": 12.12,
+    "currency": "£",
+    "unit": {
+      "weight": "kg",
+      "volume": "cm"
+    },
+    "volume": {
+      "height": 150
+    },
+    "meta": {
+      "line1": "Length + girth must be no more than 300cm",
+      "line2": "No one dimension can exceed 150cm"
+    },
+    "services": [
+      {
+        "shippingServiceID": 1,
+        "serviceCode": "CRL24",
+        "serviceName": "Royal Mail 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 2,
+        "serviceCode": "CRL48",
+        "serviceName": "Royal Mail 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 103,
+        "serviceCode": "OLA",
+        "serviceName": "International Standard On Account",
+        "deliverySpeedMye": "",
+        "maxCompensationLevel": 20,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 11,
+        "serviceCode": "SD3",
+        "serviceName": "Special Delivery Guaranteed by 9am - £1000",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 12,
+        "serviceCode": "SD6",
+        "serviceName": "Special Delivery Guaranteed by 9am - £2500",
+        "deliverySpeedMye": "Guaranteed by 9am next working day",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4329,
+        "serviceCode": "SDV",
+        "serviceName": "Special Delivery Guaranteed Age £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4330,
+        "serviceCode": "SDW",
+        "serviceName": "Special Delivery Guaranteed Age £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4331,
+        "serviceCode": "SDX",
+        "serviceName": "Special Delivery Guaranteed Age £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4332,
+        "serviceCode": "SDY",
+        "serviceName": "Special Delivery Guaranteed ID £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4333,
+        "serviceCode": "SDZ",
+        "serviceName": "Special Delivery Guaranteed ID £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4334,
+        "serviceCode": "SEA",
+        "serviceName": "Special Delivery Guaranteed ID £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4326,
+        "serviceCode": "SEB",
+        "serviceName": "Special Delivery Guaranteed £750",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 750,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4327,
+        "serviceCode": "SEC",
+        "serviceName": "Special Delivery Guaranteed £1000",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 1000,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 4328,
+        "serviceCode": "SED",
+        "serviceName": "Special Delivery Guaranteed £2500",
+        "deliverySpeedMye": "Guaranteed end of next day delivery",
+        "maxCompensationLevel": 2500,
+        "isSignedFor": true
+      },
+      {
+        "shippingServiceID": 17,
+        "serviceCode": "STL1",
+        "serviceName": "1st Class Account Mail",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 34,
+        "serviceCode": "STL2",
+        "serviceName": "2nd Class Account Mail",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 0,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 3,
+        "serviceCode": "TPN24",
+        "serviceName": "Tracked 24",
+        "deliverySpeedMye": "24 hour (next working day)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      },
+      {
+        "shippingServiceID": 4,
+        "serviceCode": "TPS48",
+        "serviceName": "Tracked 48",
+        "deliverySpeedMye": "48 hour (2 working days)",
+        "maxCompensationLevel": 100,
+        "isSignedFor": false
+      }
+    ]
+  }
+]

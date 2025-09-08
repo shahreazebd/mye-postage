@@ -1,0 +1,459 @@
+// token 
+
+eyJhbGciOiJFZERTQSIsImtpZCI6IlBGbTVZT3BsM0JsVHdsUFlRb2pmcGdmdDNPNmZIUFd3In0.eyJpZCI6ImNkYlh5d3N1QjEwSFNqYWdBSjF4U2VSRWVhNmw3R0FzIiwiY29tcGFueUlkIjoiMjk4MDZkZTAtYjBiNS00MDZkLTk2OGQtMjI5ZDdiNzlkMjM4IiwidXNlclJvbGUiOnsiaWQiOiIzMTQ5ZDAxMy1mN2RiLTQ3MGQtOWJiNi01NGI3ZmMzNzAyMTkiLCJuYW1lIjoib3duZXIiLCJwZXJtaXNzaW9ucyI6WyIqIl19LCJpYXQiOjE3NTI1NjI5NjcsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4OCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMCIsImV4cCI6MTc5NTc2Mjk2Nywic3ViIjoicnVtaWlAZXZpZGVudGJkLmNvbSJ9.ow4MSZHUNv4Pzwh4M4Q6fjuZuUsr3_aLbPdQpKW3MVVXxYhNonjZEoH3TLOb2s1zdpALBz9y6D4T0RB3olGwBA
+
+
+
+// shipment payload
+
+
+
+// fedex
+
+{
+  "storeId": "chnl_7890",
+  "storeName": "Amazon UK Channel test aug",
+  "carrierId": "jt35d5s8wn5vw7du0v4ub3bm",
+  "marketplace": "EBAY",
+  "metadata": {
+ "serviceType": "FEDEX_ECONOMY_SELECT",
+  "packagingType": "YOUR_PACKAGING",
+  "pickupType": "DROPOFF_AT_FEDEX_LOCATION"
+  },
+  "orders": [
+  {
+    "marketplaceOrderId": "order_1002",
+    "totalItems": 3,
+    "totalWeight": 1500,
+    "weightUnit": "KG",
+    "dimensionUnit": "CM",
+    "currency": "GBP",
+    "originalSku": "SKU-124-AMZ",
+    "modifiedSku": "SKU-124-EVRI",
+    "purchaseDate": "2025-07-03T12:00:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Alice Smith",
+      "email": "alice@example.com",
+      "phone": "+447911234567",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "city": "Manchester",
+      "postCode": "M1 1AE",
+      "state": "England",
+      "addressLine1": "10 Downing Street",
+      "addressLine2": "Apt 1"
+    },
+    "items": [
+      {
+        "name": "Wireless Mouse",
+        "localSku": "WM-100",
+        "marketplaceSku": "AMZ-WM-100",
+        "quantity": 1,
+        "unitPrice": 15.99,
+        "unitWeightInGrams": 500,
+        "positionItemId": "pos_1"
+      },
+      {
+        "name": "Laptop Stand",
+        "localSku": "LS-200",
+        "marketplaceSku": "AMZ-LS-200",
+        "quantity": 1,
+        "unitPrice": 22.5,
+        "unitWeightInGrams": 600,
+        "positionItemId": "pos_2"
+      },
+      {
+        "name": "HDMI Cable",
+        "localSku": "HDMI-003",
+        "marketplaceSku": "AMZ-HDMI-003",
+        "quantity": 1,
+        "unitPrice": 6.99,
+        "unitWeightInGrams": 400,
+        "positionItemId": "pos_3"
+      }
+    ]
+  },
+  {
+    "marketplaceOrderId": "order_1003",
+    "totalItems": 1,
+    "totalWeight": 700,
+    "weightUnit": "KG",
+    "dimensionUnit": "CM",
+    "currency": "GBP",
+    "originalSku": "SKU-125-AMZ",
+    "modifiedSku": "SKU-125-RM",
+    "purchaseDate": "2025-07-02T14:20:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Charlie Brown",
+      "email": "charlie@example.com",
+      "phone": "+447911345678",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "city": "Birmingham",
+      "postCode": "B1 1AA",
+      "state": "England",
+      "addressLine1": "45 King Street",
+      "addressLine2": ""
+    },
+    "items": [
+      {
+        "name": "Power Bank",
+        "localSku": "PB-5000",
+        "marketplaceSku": "AMZ-PB-5000",
+        "quantity": 1,
+        "unitPrice": 19.99,
+        "unitWeightInGrams": 700,
+        "positionItemId": "pos_1"
+      }
+    ]
+  }
+
+]
+
+}
+
+
+// dhl
+
+{
+  "companyId": "29806de0-b0b5-406d-968d-229d7b79d238",
+  "storeId": "chnl_7890",
+  "storeName": "DHL TEST 1",
+  "carrierType": "DHL",
+  "carrierId": "57d3e014-ce35-4bf6-8926-6ad2be9f7199",
+  "marketplace": "EBAY",
+  "metadata": {
+ "serviceType": "FEDEX_ECONOMY_SELECT",
+  "packagingType": "YOUR_PACKAGING",
+  "pickupType": "DROPOFF_AT_FEDEX_LOCATION"
+  },
+  "orders": [
+  {
+    "marketplaceOrderId": "order_1002",
+    "totalItems": 1,
+    "totalWeight": 1500,
+    "weightUnit": "KG",
+    "currency": "GBP",
+    "originalSku": "SKU-124-AMZ",
+    "modifiedSku": "SKU-124-EVRI",
+    "purchaseDate": "2025-07-03T12:00:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Max Mustermann",
+      "email": "alice@example.com",
+      "phone": "+447911234567",
+      "country": "Germany",
+      "countryCode": "DEU",
+      "city": "Bonn",
+      "postCode": "53113",
+      "state": "England",
+      "addressLine1": "Kurt-Schumacher-Str. 20",
+      "addressLine2": "10115 Berlin"
+    },
+    "items": [
+      {
+        "name": "Wireless Mouse",
+        "localSku": "WM-100",
+        "marketplaceSku": "AMZ-WM-100",
+        "quantity": 1,
+        "unitPrice": 15.99,
+        "unitWeightInGrams": 500,
+        "positionItemId": "pos_1"
+      }
+    ]
+  }, 
+  {
+    "marketplaceOrderId": "order_1002",
+    "totalItems": 1,
+    "totalWeight": 1500,
+    "weightUnit": "KG",
+    "currency": "GBP",
+    "originalSku": "SKU-124-AMZ",
+    "modifiedSku": "SKU-124-EVRI",
+    "purchaseDate": "2025-07-03T12:00:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Max Mustermann",
+      "email": "alice@example.com",
+      "phone": "+447911234567",
+      "country": "Germany",
+      "countryCode": "DEU",
+      "city": "Bonn",
+      "postCode": "53113",
+      "state": "England",
+      "addressLine1": "Kurt-Schumacher-Str. 20",
+      "addressLine2": "10115 Berlin"
+    },
+    "items": [
+      {
+        "name": "Wireless Mouse",
+        "localSku": "WM-100",
+        "marketplaceSku": "AMZ-WM-100",
+        "quantity": 1,
+        "unitPrice": 15.99,
+        "unitWeightInGrams": 500,
+        "positionItemId": "pos_1"
+      }
+    ]
+  }
+  ]
+}
+
+
+
+
+// royalmail
+
+{
+  "storeId": "chnl_7890",
+  "storeName": "Amazon UK Channel",
+  "carrierId": "o13qc83q70asc4j7wz0vjlj0",
+  "marketplace": "EBAY",
+  "metadata": {
+  "serviceCode": "TPN24",
+  "packageFormatIdentifier":"Parcel"
+},
+  "orders": [
+  {
+    "marketplaceOrderId": "order_1003",
+    "totalItems": 1,
+    "totalWeight": 4,
+    "weightUnit": "KG",
+    "currency": "GBP",
+    "originalSku": "SKU-125-AMZ",
+    "modifiedSku": "SKU-125-RM",
+    "purchaseDate": "2025-07-02T14:20:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Johnny Fitzsimons",
+      "email": "charlie@example.com",
+      "phone": "07711492036",
+      "country": "United Kingdom",
+      "countryCode": "GBR",
+      "city": "Downpatrick",
+      "postCode": "BT30 6HJ",
+      "state": "England",
+      "addressLine1": "1 Shannaghan Park",
+      "addressLine2": "ebay1khr6jl"
+    },
+    "items": [
+      {
+        "name": "Power Fan",
+        "localSku": "PB-5000",
+        "marketplaceSku": "AMZ-PB-5000",
+        "quantity": 1,
+        "unitPrice": 19.99,
+        "unitWeightInGrams": 2000,
+        "positionItemId": "pos_1"
+      }
+    ]
+  }
+
+]
+
+}
+
+
+// amazon 
+
+// get rates
+
+{
+  "storeId": "d8c20952-8575-49f5-b9e8-c17375158d34",
+  "shipTo": {
+      "name": "A3",
+      "addressLine1": "SWA Test Account",
+      "stateOrRegion": "",
+      "postalCode": "DN1 1QZ",
+      "city": "Doncaster",
+      "countryCode": "GB",
+      "email": "test+test@amazon.com",
+      "phoneNumber": "444-444-4444",
+      "addressLine2": "SWA Test Account"
+    },
+    "packages": [
+      {
+        "dimensions": {
+          "length": 3.14,
+          "width": 3.14,
+          "height": 3.14,
+          "unit": "INCH"
+        },
+        "weight": {
+          "unit": "KILOGRAM",
+          "value": 3.14159
+        },
+        "items": [
+          {
+            "quantity": 1,
+            "itemIdentifier": "V-02",
+            "description": "Sundries",
+            "isHazmat": false,
+            "weight": {
+              "unit": "KILOGRAM",
+              "value": 1.14159
+            }
+          },
+          {
+            "quantity": 1,
+            "itemIdentifier": "V-01",
+            "description": "Sundries",
+            "isHazmat": false,
+            "weight": {
+              "unit": "KILOGRAM",
+              "value": 1.14159
+            }
+          }
+        ],
+        "insuredValue": {
+          "unit": "GBP",
+          "value": 29.98
+        },
+        "packageClientReferenceId": "abcd"
+      }
+    ],
+    "channelDetails": {
+      "channelType": "AMAZON",
+      "amazonOrderDetails": {
+        "orderId": "113-3080243-4028244"
+      }
+    }
+}
+
+
+
+
+// purchase
+
+
+{
+  "storeId": "chnl_7890",
+  "storeName": "Amazon UK Channel",
+  "carrierId": "yfggh73aq1zckp0askpu5d76",
+  "marketplace": "AMAZON",
+  "metadata": {
+  },
+  "orders": [
+    {
+      "marketplaceOrderId": "order_1002",
+      "totalItems": 3,
+      "totalWeight": 1500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-124-AMZ",
+      "modifiedSku": "SKU-124-EVRI",
+      "purchaseDate": "2025-07-03T12:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Alice Smith",
+        "email": "alice@example.com",
+        "phone": "+447911234567",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Manchester",
+        "postCode": "M1 1AE",
+        "state": "England",
+        "addressLine1": "10 Downing Street",
+        "addressLine2": "Apt 1"
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-100",
+          "marketplaceSku": "AMZ-WM-100",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ],
+      "metadata": {
+        "requestToken": "amzn1.388105be-bea8-4c80-8704-5e5ccfb019e5",
+        "rateId": "e1b7cf2d1516d8c5343a087e10a5a2261ff36b83bdb5a91c6ce51b19586ed98615072005809431",
+        "requestedDocumentSpecification": {
+          "format": "PDF",
+          "size": {
+            "width": 4,
+            "length": 6,
+            "unit": "INCH"
+          },
+          "dpi": 300,
+          "pageLayout": "DEFAULT",
+          "needFileJoining": false,
+          "requestedDocumentTypes": [
+            "LABEL"
+          ]
+        }
+      }
+    }
+  ]
+}
+  
+
+{
+  "storeId": "chnl_7890",
+  "storeName": "Amazon UK Channel",
+  "carrierId": "yfggh73aq1zckp0askpu5d76",
+  "marketplace": "EBAY",
+  "metadata": {
+  },
+  "orders": [
+  {
+    "marketplaceOrderId": "order_1002",
+    "totalItems": 3,
+    "totalWeight": 1500,
+    "weightUnit": "KG",
+    "dimensionUnit": "CM",
+    "currency": "GBP",
+    "originalSku": "SKU-124-AMZ",
+    "modifiedSku": "SKU-124-EVRI",
+    "purchaseDate": "2025-07-03T12:00:00Z",
+    "mergedOrderIds": [],
+    "address": {
+      "buyerName": "Alice Smith",
+      "email": "alice@example.com",
+      "phone": "+447911234567",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "city": "Manchester",
+      "postCode": "M1 1AE",
+      "state": "England",
+      "addressLine1": "10 Downing Street",
+      "addressLine2": "Apt 1"
+    },
+"metadata": {
+    "requestToken": "amzn1.7f3ab870-e6d2-4e00-9a9b-2679c82b28f4",
+    "rateId": "e1b7cf2d1516d8c5343a087e10a5a2261ff36b83bdb5a91c6ce51b19586ed98615072005809431",
+    "requestedDocumentSpecification": {
+        "format": "PDF",
+        "size": {
+            "width": 4.0,
+            "length": 6.0,
+            "unit": "INCH"
+        },
+        "dpi": 300,
+        "pageLayout": "DEFAULT",
+        "needFileJoining": false,
+        "requestedDocumentTypes": [
+            "LABEL"
+        ]
+    }
+},
+    "items": [
+      {
+        "name": "Wireless Mouse",
+        "localSku": "WM-100",
+        "marketplaceSku": "AMZ-WM-100",
+        "quantity": 1,
+        "unitPrice": 15.99,
+        "unitWeightInGrams": 500,
+        "positionItemId": "pos_1"
+      }
+    ]
+  }
+
+]
+
+}

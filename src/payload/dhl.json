@@ -1,0 +1,1319 @@
+{
+  "storeId": "chnl_7890",
+  "storeName": "DHL TEST 1",
+  "carrierType": "DHL",
+  "carrierId": "ukf188rbmbtogvpwg99h9wnk",
+  "marketplace": "EBAY",
+  "metadata": {
+    "serviceType": "FEDEX_ECONOMY_SELECT",
+    "packagingType": "YOUR_PACKAGING",
+    "pickupType": "DROPOFF_AT_FEDEX_LOCATION"
+  },
+  "orders": [
+    {
+      "marketplaceOrderId": "order_1001",
+      "totalItems": 1,
+      "totalWeight": 1500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-124-AMZ",
+      "modifiedSku": "SKU-124-EVRI",
+      "purchaseDate": "2025-07-03T12:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Max Mustermann",
+        "email": "alice@example.com",
+        "phone": "+447911234567",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Bonn",
+        "postCode": "53113",
+        "state": "England",
+        "addressLine1": "Kurt-Schumacher-Str. 20",
+        "addressLine2": "10115 Berlin"
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-100",
+          "marketplaceSku": "AMZ-WM-100",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1002",
+      "totalItems": 1,
+      "totalWeight": 1500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-124-AMZ",
+      "modifiedSku": "SKU-124-EVRI",
+      "purchaseDate": "2025-07-03T12:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Max Mustermann",
+        "email": "alice@example.com",
+        "phone": "+447911234567",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Bonn",
+        "postCode": "53113",
+        "state": "England",
+        "addressLine1": "Kurt-Schumacher-Str. 20",
+        "addressLine2": "10115 Berlin"
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-100",
+          "marketplaceSku": "AMZ-WM-100",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+
+    {
+      "marketplaceOrderId": "order_1005",
+      "totalItems": 3,
+      "totalWeight": 1800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-127-AMZ",
+      "modifiedSku": "SKU-127-EVRI",
+      "purchaseDate": "2025-07-05T10:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sophie Weber",
+        "email": "sophie@example.com",
+        "phone": "+4915123456792",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Hamburg",
+        "postCode": "20095",
+        "state": "Hamburg",
+        "addressLine1": "Rathausmarkt 1",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Keyboard",
+          "localSku": "WK-300",
+          "marketplaceSku": "AMZ-WK-300",
+          "quantity": 1,
+          "unitPrice": 25.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Hub",
+          "localSku": "UH-150",
+          "marketplaceSku": "AMZ-UH-150",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Webcam",
+          "localSku": "WC-100",
+          "marketplaceSku": "AMZ-WC-100",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1009",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-131-AMZ",
+      "modifiedSku": "SKU-131-EVRI",
+      "purchaseDate": "2025-07-07T09:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Leon Wagner",
+        "email": "leon@example.com",
+        "phone": "+4915123456796",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Stuttgart",
+        "postCode": "70173",
+        "state": "Baden-Württemberg",
+        "addressLine1": "Schlossplatz 2",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "localSku": "WE-200",
+          "marketplaceSku": "AMZ-WE-200",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Clip",
+          "localSku": "CC-050",
+          "marketplaceSku": "AMZ-CC-050",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1010",
+      "totalItems": 1,
+      "totalWeight": 500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-132-AMZ",
+      "modifiedSku": "SKU-132-RM",
+      "purchaseDate": "2025-07-07T11:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Clara Meyer",
+        "email": "clara@example.com",
+        "phone": "+4915123456797",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Leipzig",
+        "postCode": "04109",
+        "state": "Saxony",
+        "addressLine1": "Markt 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Portable Charger",
+          "localSku": "PC-3000",
+          "marketplaceSku": "AMZ-PC-3000",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1013",
+      "totalItems": 2,
+      "totalWeight": 950,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-135-AMZ",
+      "modifiedSku": "SKU-135-EVRI",
+      "purchaseDate": "2025-07-09T09:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Elias König",
+        "email": "elias@example.com",
+        "phone": "+4915123456800",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Bremen",
+        "postCode": "28195",
+        "state": "Bremen",
+        "addressLine1": "Sögestrasse 45",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "USB-C Hub",
+          "localSku": "UCH-200",
+          "marketplaceSku": "AMZ-UCH-200",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Screen Protector",
+          "localSku": "SP-100",
+          "marketplaceSku": "AMZ-SP-100",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "unitWeightInGrams": 450,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1015",
+      "totalItems": 3,
+      "totalWeight": 1700,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-137-AMZ",
+      "modifiedSku": "SKU-137-EVRI",
+      "purchaseDate": "2025-07-10T08:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Ben Schäfer",
+        "email": "ben@example.com",
+        "phone": "+4915123456802",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Aachen",
+        "postCode": "52062",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Krämerstrasse 15",
+        "addressLine2": "Apt 2"
+      },
+      "items": [
+        {
+          "name": "External Hard Drive",
+          "localSku": "EHD-1000",
+          "marketplaceSku": "AMZ-EHD-1000",
+          "quantity": 1,
+          "unitPrice": 49.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Adapter",
+          "localSku": "UA-050",
+          "marketplaceSku": "AMZ-UA-050",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Mouse Mat",
+          "localSku": "MM-100",
+          "marketplaceSku": "AMZ-MM-100",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1016",
+      "totalItems": 1,
+      "totalWeight": 450,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-138-AMZ",
+      "modifiedSku": "SKU-138-RM",
+      "purchaseDate": "2025-07-10T11:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Laura Vogel",
+        "email": "laura@example.com",
+        "phone": "+4915123456803",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Freiburg",
+        "postCode": "79098",
+        "state": "Baden-Württemberg",
+        "addressLine1": "Kaiser-Joseph-Strasse 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "USB Light",
+          "localSku": "UL-050",
+          "marketplaceSku": "AMZ-UL-050",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "unitWeightInGrams": 450,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1019",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-141-AMZ",
+      "modifiedSku": "SKU-141-EVRI",
+      "purchaseDate": "2025-07-12T10:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Paul Schwarz",
+        "email": "paul@example.com",
+        "phone": "+4915123456806",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Potsdam",
+        "postCode": "14467",
+        "state": "Brandenburg",
+        "addressLine1": "Brandenburger Strasse 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-200",
+          "marketplaceSku": "AMZ-WM-200",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB-C Adapter",
+          "localSku": "UCA-100",
+          "marketplaceSku": "AMZ-UCA-100",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1020",
+      "totalItems": 1,
+      "totalWeight": 800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-142-AMZ",
+      "modifiedSku": "SKU-142-RM",
+      "purchaseDate": "2025-07-12T14:20:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sara Neumann",
+        "email": "sara@example.com",
+        "phone": "+4915123456807",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Essen",
+        "postCode": "45127",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Limbecker Platz 1",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Bluetooth Headphones",
+          "localSku": "BH-300",
+          "marketplaceSku": "AMZ-BH-300",
+          "quantity": 1,
+          "unitPrice": 49.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1024",
+      "totalItems": 1,
+      "totalWeight": 700,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-146-AMZ",
+      "modifiedSku": "SKU-146-RM",
+      "purchaseDate": "2025-07-14T13:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sophie Klein",
+        "email": "sophie.k@example.com",
+        "phone": "+4915123456811",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Kiel",
+        "postCode": "24103",
+        "state": "Schleswig-Holstein",
+        "addressLine1": "Holstenstrasse 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Portable Charger",
+          "localSku": "PC-4000",
+          "marketplaceSku": "AMZ-PC-4000",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1025",
+      "totalItems": 2,
+      "totalWeight": 1100,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-147-AMZ",
+      "modifiedSku": "SKU-147-EVRI",
+      "purchaseDate": "2025-07-15T08:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Felix Wagner",
+        "email": "felix@example.com",
+        "phone": "+4915123456812",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Lübeck",
+        "postCode": "23552",
+        "state": "Schleswig-Holstein",
+        "addressLine1": "Breite Strasse 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Laptop Stand",
+          "localSku": "LS-300",
+          "marketplaceSku": "AMZ-LS-300",
+          "quantity": 1,
+          "unitPrice": 22.5,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "HDMI Cable",
+          "localSku": "HDMI-004",
+          "marketplaceSku": "AMZ-HDMI-004",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1026",
+      "totalItems": 1,
+      "totalWeight": 400,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-148-AMZ",
+      "modifiedSku": "SKU-148-RM",
+      "purchaseDate": "2025-07-15T11:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Anna Fischer",
+        "email": "anna.f@example.com",
+        "phone": "+4915123456813",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Rostock",
+        "postCode": "18055",
+        "state": "Mecklenburg-Vorpommern",
+        "addressLine1": "Kröpeliner Strasse 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Micro USB Cable",
+          "localSku": "MUSB-003",
+          "marketplaceSku": "AMZ-MUSB-003",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1027",
+      "totalItems": 3,
+      "totalWeight": 1800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-149-AMZ",
+      "modifiedSku": "SKU-149-EVRI",
+      "purchaseDate": "2025-07-16T09:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Lukas Meyer",
+        "email": "lukas.m@example.com",
+        "phone": "+4915123456814",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Magdeburg",
+        "postCode": "39104",
+        "state": "Saxony-Anhalt",
+        "addressLine1": "Breiter Weg 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Monitor Stand",
+          "localSku": "MS-400",
+          "marketplaceSku": "AMZ-MS-400",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Flash Drive",
+          "localSku": "UFD-512",
+          "marketplaceSku": "AMZ-UFD-512",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Laptop Sleeve",
+          "localSku": "LS-200",
+          "marketplaceSku": "AMZ-LS-200",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1028",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-150-AMZ",
+      "modifiedSku": "SKU-150-RM",
+      "purchaseDate": "2025-07-16T12:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Emma Schulz",
+        "email": "emma.s@example.com",
+        "phone": "+4915123456815",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Erfurt",
+        "postCode": "99084",
+        "state": "Thuringia",
+        "addressLine1": "Domplatz 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "localSku": "WE-300",
+          "marketplaceSku": "AMZ-WE-300",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Clip",
+          "localSku": "CC-150",
+          "marketplaceSku": "AMZ-CC-150",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1030",
+      "totalItems": 2,
+      "totalWeight": 1100,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-152-AMZ",
+      "modifiedSku": "SKU-152-RM",
+      "purchaseDate": "2025-07-17T11:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Clara Braun",
+        "email": "clara.b@example.com",
+        "phone": "+4915123456817",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Regensburg",
+        "postCode": "93047",
+        "state": "Bavaria",
+        "addressLine1": "Domplatz 3",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Laptop Stand",
+          "localSku": "LS-400",
+          "marketplaceSku": "AMZ-LS-400",
+          "quantity": 1,
+          "unitPrice": 22.5,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "HDMI Cable",
+          "localSku": "HDMI-005",
+          "marketplaceSku": "AMZ-HDMI-005",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1031",
+      "totalItems": 1,
+      "totalWeight": 700,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-153-AMZ",
+      "modifiedSku": "SKU-153-EVRI",
+      "purchaseDate": "2025-07-18T09:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Leon König",
+        "email": "leon.k@example.com",
+        "phone": "+4915123456818",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Augsburg",
+        "postCode": "86150",
+        "state": "Bavaria",
+        "addressLine1": "Maximilianstrasse 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Power Bank",
+          "localSku": "PB-6000",
+          "marketplaceSku": "AMZ-PB-6000",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1032",
+      "totalItems": 2,
+      "totalWeight": 950,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-154-AMZ",
+      "modifiedSku": "SKU-154-RM",
+      "purchaseDate": "2025-07-18T12:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Mia Richter",
+        "email": "mia.r@example.com",
+        "phone": "+4915123456819",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Würzburg",
+        "postCode": "97070",
+        "state": "Bavaria",
+        "addressLine1": "Domstrasse 5",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "USB-C Hub",
+          "localSku": "UCH-300",
+          "marketplaceSku": "AMZ-UCH-300",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Screen Protector",
+          "localSku": "SP-200",
+          "marketplaceSku": "AMZ-SP-200",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "unitWeightInGrams": 450,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1033",
+      "totalItems": 1,
+      "totalWeight": 600,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-155-AMZ",
+      "modifiedSku": "SKU-155-EVRI",
+      "purchaseDate": "2025-07-19T08:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Ben Schäfer",
+        "email": "ben.s@example.com",
+        "phone": "+4915123456820",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Kassel",
+        "postCode": "34117",
+        "state": "Hesse",
+        "addressLine1": "Königsplatz 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Charger",
+          "localSku": "WC-200",
+          "marketplaceSku": "AMZ-WC-200",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1034",
+      "totalItems": 3,
+      "totalWeight": 1700,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-156-AMZ",
+      "modifiedSku": "SKU-156-RM",
+      "purchaseDate": "2025-07-19T11:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Laura Vogel",
+        "email": "laura.v@example.com",
+        "phone": "+4915123456821",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Saarbrücken",
+        "postCode": "66111",
+        "state": "Saarland",
+        "addressLine1": "Bahnhofstrasse 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "External Hard Drive",
+          "localSku": "EHD-2000",
+          "marketplaceSku": "AMZ-EHD-2000",
+          "quantity": 1,
+          "unitPrice": 49.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Adapter",
+          "localSku": "UA-100",
+          "marketplaceSku": "AMZ-UA-100",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Mouse Mat",
+          "localSku": "MM-200",
+          "marketplaceSku": "AMZ-MM-200",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1035",
+      "totalItems": 1,
+      "totalWeight": 450,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-157-AMZ",
+      "modifiedSku": "SKU-157-EVRI",
+      "purchaseDate": "2025-07-20T09:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Jonas Lehmann",
+        "email": "jonas.l@example.com",
+        "phone": "+4915123456822",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Trier",
+        "postCode": "54290",
+        "state": "Rhineland-Palatinate",
+        "addressLine1": "Simeonstrasse 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "USB Light",
+          "localSku": "UL-100",
+          "marketplaceSku": "AMZ-UL-100",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "unitWeightInGrams": 450,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1036",
+      "totalItems": 2,
+      "totalWeight": 1300,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-158-AMZ",
+      "modifiedSku": "SKU-158-RM",
+      "purchaseDate": "2025-07-20T12:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Hannah Krüger",
+        "email": "hannah.k@example.com",
+        "phone": "+4915123456823",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Oldenburg",
+        "postCode": "26122",
+        "state": "Lower Saxony",
+        "addressLine1": "Haarenstrasse 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Laptop Cooling Pad",
+          "localSku": "LCP-300",
+          "marketplaceSku": "AMZ-LCP-300",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Organizer",
+          "localSku": "CO-100",
+          "marketplaceSku": "AMZ-CO-100",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1037",
+      "totalItems": 1,
+      "totalWeight": 600,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-159-AMZ",
+      "modifiedSku": "SKU-159-EVRI",
+      "purchaseDate": "2025-07-21T08:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Paul Schwarz",
+        "email": "paul.s@example.com",
+        "phone": "+4915123456824",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Flensburg",
+        "postCode": "24937",
+        "state": "Schleswig-Holstein",
+        "addressLine1": "Holm 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Portable SSD",
+          "localSku": "SSD-1000",
+          "marketplaceSku": "AMZ-SSD-1000",
+          "quantity": 1,
+          "unitPrice": 59.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1038",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-160-AMZ",
+      "modifiedSku": "SKU-160-RM",
+      "purchaseDate": "2025-07-21T11:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sara Neumann",
+        "email": "sara.n@example.com",
+        "phone": "+4915123456825",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Münster",
+        "postCode": "48143",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Prinzipalmarkt 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-300",
+          "marketplaceSku": "AMZ-WM-300",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB-C Adapter",
+          "localSku": "UCA-200",
+          "marketplaceSku": "AMZ-UCA-200",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1039",
+      "totalItems": 1,
+      "totalWeight": 800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-161-AMZ",
+      "modifiedSku": "SKU-161-EVRI",
+      "purchaseDate": "2025-07-22T09:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Tom Klein",
+        "email": "tom.k@example.com",
+        "phone": "+4915123456826",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Bielefeld",
+        "postCode": "33602",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Niederwall 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Bluetooth Headphones",
+          "localSku": "BH-400",
+          "marketplaceSku": "AMZ-BH-400",
+          "quantity": 1,
+          "unitPrice": 49.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1040",
+      "totalItems": 3,
+      "totalWeight": 1600,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-162-AMZ",
+      "modifiedSku": "SKU-162-RM",
+      "purchaseDate": "2025-07-22T12:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Lena Hoffmann",
+        "email": "lena.h@example.com",
+        "phone": "+4915123456827",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Bochum",
+        "postCode": "44787",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Kortumstrasse 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Laptop Backpack",
+          "localSku": "LB-300",
+          "marketplaceSku": "AMZ-LB-300",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB-C Cable",
+          "localSku": "USBC-003",
+          "marketplaceSku": "AMZ-USBC-003",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Mouse Pad",
+          "localSku": "MP-300",
+          "marketplaceSku": "AMZ-MP-300",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1042",
+      "totalItems": 2,
+      "totalWeight": 900,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-164-AMZ",
+      "modifiedSku": "SKU-164-RM",
+      "purchaseDate": "2025-07-23T11:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sophie Klein",
+        "email": "sophie.k2@example.com",
+        "phone": "+4915123456829",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Duisburg",
+        "postCode": "47051",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Königstrasse 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Keyboard",
+          "localSku": "WK-500",
+          "marketplaceSku": "AMZ-WK-500",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Clip",
+          "localSku": "CC-200",
+          "marketplaceSku": "AMZ-CC-200",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1044",
+      "totalItems": 2,
+      "totalWeight": 1100,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-166-AMZ",
+      "modifiedSku": "SKU-166-RM",
+      "purchaseDate": "2025-07-24T12:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Anna Fischer",
+        "email": "anna.f2@example.com",
+        "phone": "+4915123456831",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Krefeld",
+        "postCode": "47798",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Hochstrasse 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Laptop Stand",
+          "localSku": "LS-500",
+          "marketplaceSku": "AMZ-LS-500",
+          "quantity": 1,
+          "unitPrice": 22.5,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "HDMI Cable",
+          "localSku": "HDMI-006",
+          "marketplaceSku": "AMZ-HDMI-006",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1045",
+      "totalItems": 1,
+      "totalWeight": 400,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-167-AMZ",
+      "modifiedSku": "SKU-167-EVRI",
+      "purchaseDate": "2025-07-25T08:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Lukas Meyer",
+        "email": "lukas.m2@example.com",
+        "phone": "+4915123456832",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Mönchengladbach",
+        "postCode": "41061",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Hindenburgstrasse 15",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Micro USB Cable",
+          "localSku": "MUSB-004",
+          "marketplaceSku": "AMZ-MUSB-004",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1046",
+      "totalItems": 3,
+      "totalWeight": 1800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-168-AMZ",
+      "modifiedSku": "SKU-168-RM",
+      "purchaseDate": "2025-07-25T11:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Emma Schulz",
+        "email": "emma.s2@example.com",
+        "phone": "+4915123456833",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Gelsenkirchen",
+        "postCode": "45879",
+        "state": "North Rhine-Westphalia",
+        "addressLine1": "Ebertstrasse 20",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Monitor Stand",
+          "localSku": "MS-500",
+          "marketplaceSku": "AMZ-MS-500",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Flash Drive",
+          "localSku": "UFD-2048",
+          "marketplaceSku": "AMZ-UFD-2048",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Laptop Sleeve",
+          "localSku": "LS-300",
+          "marketplaceSku": "AMZ-LS-300",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1047",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-169-AMZ",
+      "modifiedSku": "SKU-169-EVRI",
+      "purchaseDate": "2025-07-26T09:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Finn Weber",
+        "email": "finn.w2@example.com",
+        "phone": "+4915123456834",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Halle",
+        "postCode": "06108",
+        "state": "Saxony-Anhalt",
+        "addressLine1": "Marktplatz 10",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "localSku": "WE-400",
+          "marketplaceSku": "AMZ-WE-400",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Clip",
+          "localSku": "CC-300",
+          "marketplaceSku": "AMZ-CC-300",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1048",
+      "totalItems": 1,
+      "totalWeight": 500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-170-AMZ",
+      "modifiedSku": "SKU-170-RM",
+      "purchaseDate": "2025-07-26T12:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Clara Braun",
+        "email": "clara.b2@example.com",
+        "phone": "+4915123456835",
+        "country": "Germany",
+        "countryCode": "DEU",
+        "city": "Chemnitz",
+        "postCode": "09111",
+        "state": "Saxony",
+        "addressLine1": "Neumarkt 5",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Portable Charger",
+          "localSku": "PC-7000",
+          "marketplaceSku": "AMZ-PC-7000",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ]
+    }
+  ]
+}

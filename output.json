@@ -1,0 +1,181 @@
+{
+  "transactionId": "e324fe00-5f0b-4e39-8d15-f21558196da2",
+  "output": {
+    "rateReplyDetails": [
+      {
+        "serviceType": "FEDEX_ECONOMY_SELECT",
+        "serviceName": "FedEx® Economy",
+        "packagingType": "YOUR_PACKAGING",
+        "ratedShipmentDetails": [
+          {
+            "rateType": "ACCOUNT",
+            "ratedWeightMethod": "ACTUAL",
+            "totalDiscounts": 0,
+            "totalBaseCharge": 16.62,
+            "totalNetCharge": 74.64,
+            "totalNetFedExCharge": 62.2,
+            "shipmentRateDetail": {
+              "rateZone": "1",
+              "ratingBasis": "SHIPMENT_WEIGHT_BASED",
+              "dimDivisor": 139,
+              "fuelSurchargePercent": 5.5,
+              "totalSurcharges": 45.58,
+              "totalFreightDiscount": 0,
+              "surCharges": [
+                {
+                  "type": "SIGNATURE_OPTION",
+                  "description": "Indirect signature required",
+                  "level": "SHIPMENT",
+                  "amount": 3
+                },
+                {
+                  "type": "FUEL",
+                  "description": "Fuel Surcharge",
+                  "level": "SHIPMENT",
+                  "amount": 1.08
+                },
+                {
+                  "type": "DEMAND",
+                  "description": "Demand Surcharge",
+                  "level": "SHIPMENT",
+                  "amount": 1.5
+                },
+                {
+                  "type": "FEDEX_INTRACOUNTRY_FEES",
+                  "description": "Waybill",
+                  "level": "SHIPMENT",
+                  "amount": 40
+                }
+              ],
+              "taxes": [
+                {
+                  "type": "VAT",
+                  "description": "United Kingdom VAT",
+                  "amount": 12.44
+                }
+              ],
+              "pricingCode": "",
+              "totalBillingWeight": {
+                "units": "KG",
+                "value": 0.7
+              },
+              "dimDivisorType": "COUNTRY",
+              "currency": "GBP",
+              "rateScale": "GB11F1_D4_YOUR_PACKAGING"
+            },
+            "ratedPackages": [
+              {
+                "groupNumber": 0,
+                "effectiveNetDiscount": 0,
+                "packageRateDetail": {
+                  "rateType": "PAYOR_ACCOUNT_SHIPMENT",
+                  "ratedWeightMethod": "ACTUAL",
+                  "baseCharge": 16.62,
+                  "netFreight": 16.62,
+                  "totalSurcharges": 45.58,
+                  "netFedExCharge": 62.2,
+                  "totalTaxes": 12.44,
+                  "netCharge": 74.64,
+                  "totalRebates": 0,
+                  "billingWeight": {
+                    "units": "KG",
+                    "value": 0.7
+                  },
+                  "totalFreightDiscounts": 0,
+                  "surcharges": [
+                    {
+                      "type": "SIGNATURE_OPTION",
+                      "description": "Indirect signature required",
+                      "level": "SHIPMENT",
+                      "amount": 3
+                    },
+                    {
+                      "type": "FUEL",
+                      "description": "Fuel Surcharge",
+                      "level": "SHIPMENT",
+                      "amount": 1.08
+                    },
+                    {
+                      "type": "DEMAND",
+                      "description": "Demand Surcharge",
+                      "level": "SHIPMENT",
+                      "amount": 1.5
+                    },
+                    {
+                      "type": "FEDEX_INTRACOUNTRY_FEES",
+                      "description": "Waybill",
+                      "level": "SHIPMENT",
+                      "amount": 40
+                    }
+                  ],
+                  "currency": "GBP"
+                },
+                "sequenceNumber": 1
+              }
+            ],
+            "currency": "GBP"
+          }
+        ],
+        "operationalDetail": {
+          "ineligibleForMoneyBackGuarantee": false,
+          "astraDescription": "ECON",
+          "airportId": "EMA",
+          "serviceCode": "D4"
+        },
+        "signatureOptionType": "INDIRECT",
+        "serviceDescription": {
+          "serviceId": "EP1000000378",
+          "serviceType": "FEDEX_ECONOMY_SELECT",
+          "code": "D4",
+          "names": [
+            {
+              "type": "long",
+              "encoding": "utf-8",
+              "value": "FedEx® Economy"
+            },
+            {
+              "type": "long",
+              "encoding": "ascii",
+              "value": "FedEx Economy"
+            },
+            {
+              "type": "medium",
+              "encoding": "utf-8",
+              "value": "FedEx® Economy"
+            },
+            {
+              "type": "medium",
+              "encoding": "ascii",
+              "value": "FedEx Economy"
+            },
+            {
+              "type": "short",
+              "encoding": "utf-8",
+              "value": "NE"
+            },
+            {
+              "type": "short",
+              "encoding": "ascii",
+              "value": "NE"
+            },
+            {
+              "type": "abbrv",
+              "encoding": "utf-8",
+              "value": "VE"
+            },
+            {
+              "type": "abbrv",
+              "encoding": "ascii",
+              "value": "VE"
+            }
+          ],
+          "serviceCategory": "parcel",
+          "description": "Economy",
+          "astraDescription": "ECON"
+        }
+      }
+    ],
+    "quoteDate": "2025-07-27",
+    "encoded": false
+  }
+}

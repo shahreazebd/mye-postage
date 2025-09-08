@@ -1,0 +1,57 @@
+import { z } from "zod"
+
+// fedex
+
+export const FedExCredentialsSchema = z.object({
+  clientId: z.string().min(1, "Client ID is required"),
+  clientSecret: z.string().min(1, "Client Secret is required"),
+})
+
+const _FedexServiceTypeEnum = z.enum([
+  "FEDEX_INTERNATIONAL_PRIORITY_EXPRESS",
+  "INTERNATIONAL_FIRST",
+  "FEDEX_INTERNATIONAL_PRIORITY",
+  "FEDEX_FREIGHT_PRIORITY",
+  "FEDEX_FREIGHT_ECONOMY",
+  "INTERNATIONAL_ECONOMY",
+  "FEDEX_GROUND",
+  "FIRST_OVERNIGHT",
+  "FEDEX_FIRST_FREIGHT",
+  "FEDEX_1_DAY_FREIGHT",
+  "FEDEX_2_DAY_FREIGHT",
+  "FEDEX_3_DAY_FREIGHT",
+  "INTERNATIONAL_PRIORITY_FREIGHT",
+  "INTERNATIONAL_ECONOMY_FREIGHT",
+  "FEDEX_INTERNATIONAL_DEFERRED_FREIGHT",
+  "INTERNATIONAL_PRIORITY_DISTRIBUTION",
+  "INTERNATIONAL_DISTRIBUTION_FREIGHT",
+  "INTL_GROUND_DISTRIBUTION",
+  "GROUND_HOME_DELIVERY",
+  "SMART_POST",
+  "PRIORITY_OVERNIGHT",
+  "STANDARD_OVERNIGHT",
+  "FEDEX_2_DAY",
+  "FEDEX_2_DAY_AM",
+  "FEDEX_EXPRESS_SAVER",
+  "SAME_DAY",
+  "SAME_DAY_CITY",
+])
+
+const _FedexPackagingTypeEnum = z.enum([
+  "YOUR_PACKAGING",
+  "FEDEX_ENVELOPE",
+  "FEDEX_BOX",
+  "FEDEX_SMALL_BOX",
+  "FEDEX_MEDIUM_BOX",
+  "FEDEX_LARGE_BOX",
+  "FEDEX_EXTRA_LARGE_BOX",
+  "FEDEX_10KG_BOX",
+  "FEDEX_25KG_BOX",
+  "FEDEX_PAK",
+  "FEDEX_TUBE",
+])
+
+export const FedexRatesAndTransitTimeSchema = z.object({
+  shipmentId: z.string(),
+  orderId: z.string(),
+})

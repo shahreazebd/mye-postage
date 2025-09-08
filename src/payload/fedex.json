@@ -1,0 +1,443 @@
+{
+  "storeId": "chnl_7890",
+  "storeName": "Amazon UK Channel",
+  "carrierId": "jt35d5s8wn5vw7du0v4ub3bm",
+  "marketplace": "EBAY",
+  "metadata": {
+    "serviceType": "FEDEX_ECONOMY_SELECT",
+    "packagingType": "YOUR_PACKAGING",
+    "pickupType": "DROPOFF_AT_FEDEX_LOCATION"
+  },
+  "orders": [
+    {
+      "marketplaceOrderId": "order_1002",
+      "totalItems": 3,
+      "totalWeight": 1500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-124-AMZ",
+      "modifiedSku": "SKU-124-EVRI",
+      "purchaseDate": "2025-07-03T12:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Alice Smith",
+        "email": "alice@example.com",
+        "phone": "+447911234567",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Manchester",
+        "postCode": "M1 1AE",
+        "state": "England",
+        "addressLine1": "10 Downing Street",
+        "addressLine2": "Apt 1"
+      },
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "localSku": "WM-100",
+          "marketplaceSku": "AMZ-WM-100",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Laptop Stand",
+          "localSku": "LS-200",
+          "marketplaceSku": "AMZ-LS-200",
+          "quantity": 1,
+          "unitPrice": 22.5,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "HDMI Cable",
+          "localSku": "HDMI-003",
+          "marketplaceSku": "AMZ-HDMI-003",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1003",
+      "totalItems": 1,
+      "totalWeight": 700,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-125-AMZ",
+      "modifiedSku": "SKU-125-RM",
+      "purchaseDate": "2025-07-02T14:20:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Charlie Brown",
+        "email": "charlie@example.com",
+        "phone": "+447911345678",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Birmingham",
+        "postCode": "B1 1AA",
+        "state": "England",
+        "addressLine1": "45 King Street",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Power Bank",
+          "localSku": "PB-5000",
+          "marketplaceSku": "AMZ-PB-5000",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1004",
+      "totalItems": 2,
+      "totalWeight": 900,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-126-AMZ",
+      "modifiedSku": "SKU-126-EVRI",
+      "purchaseDate": "2025-07-04T09:15:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Emma Johnson",
+        "email": "emma@example.com",
+        "phone": "+447911456789",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "London",
+        "postCode": "SW1A 1AA",
+        "state": "England",
+        "addressLine1": "22 Baker Street",
+        "addressLine2": "Flat 3"
+      },
+      "items": [
+        {
+          "name": "USB-C Cable",
+          "localSku": "USBC-001",
+          "marketplaceSku": "AMZ-USBC-001",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Mouse Pad",
+          "localSku": "MP-100",
+          "marketplaceSku": "AMZ-MP-100",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1005",
+      "totalItems": 1,
+      "totalWeight": 1200,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-127-AMZ",
+      "modifiedSku": "SKU-127-RM",
+      "purchaseDate": "2025-07-04T16:30:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Liam Wilson",
+        "email": "liam@example.com",
+        "phone": "+447911567890",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Leeds",
+        "postCode": "LS1 1UR",
+        "state": "England",
+        "addressLine1": "15 Park Lane",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "localSku": "BS-200",
+          "marketplaceSku": "AMZ-BS-200",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "unitWeightInGrams": 1200,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1006",
+      "totalItems": 4,
+      "totalWeight": 2000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-128-AMZ",
+      "modifiedSku": "SKU-128-EVRI",
+      "purchaseDate": "2025-07-05T10:45:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Olivia Davis",
+        "email": "olivia@example.com",
+        "phone": "+447911678901",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Bristol",
+        "postCode": "BS1 1AD",
+        "state": "England",
+        "addressLine1": "30 Queen Square",
+        "addressLine2": "Flat 5"
+      },
+      "items": [
+        {
+          "name": "Wireless Keyboard",
+          "localSku": "WK-300",
+          "marketplaceSku": "AMZ-WK-300",
+          "quantity": 1,
+          "unitPrice": 25.99,
+          "unitWeightInGrams": 700,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Hub",
+          "localSku": "UH-150",
+          "marketplaceSku": "AMZ-UH-150",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Webcam",
+          "localSku": "WC-100",
+          "marketplaceSku": "AMZ-WC-100",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_3"
+        },
+        {
+          "name": "Cable Organizer",
+          "localSku": "CO-050",
+          "marketplaceSku": "AMZ-CO-050",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_4"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1007",
+      "totalItems": 2,
+      "totalWeight": 800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-129-AMZ",
+      "modifiedSku": "SKU-129-RM",
+      "purchaseDate": "2025-07-05T14:00:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Noah Taylor",
+        "email": "noah@example.com",
+        "phone": "+447911789012",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Glasgow",
+        "postCode": "G1 1AB",
+        "state": "Scotland",
+        "addressLine1": "12 George Street",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Phone Charger",
+          "localSku": "PC-200",
+          "marketplaceSku": "AMZ-PC-200",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "unitWeightInGrams": 300,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Earphones",
+          "localSku": "EP-100",
+          "marketplaceSku": "AMZ-EP-100",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1008",
+      "totalItems": 1,
+      "totalWeight": 400,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-130-AMZ",
+      "modifiedSku": "SKU-130-EVRI",
+      "purchaseDate": "2025-07-06T11:20:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Sophia Clark",
+        "email": "sophia@example.com",
+        "phone": "+447911890123",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Cardiff",
+        "postCode": "CF10 1AA",
+        "state": "Wales",
+        "addressLine1": "25 St Mary Street",
+        "addressLine2": "Flat 2"
+      },
+      "items": [
+        {
+          "name": "Micro USB Cable",
+          "localSku": "MUSB-002",
+          "marketplaceSku": "AMZ-MUSB-002",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_1"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1009",
+      "totalItems": 3,
+      "totalWeight": 1800,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-131-AMZ",
+      "modifiedSku": "SKU-131-RM",
+      "purchaseDate": "2025-07-06T15:10:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "James Lewis",
+        "email": "james@example.com",
+        "phone": "+447911901234",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Liverpool",
+        "postCode": "L1 1JD",
+        "state": 4274,
+        "addressLine1": "50 Bold Street",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Monitor Stand",
+          "localSku": "MS-300",
+          "marketplaceSku": "AMZ-MS-300",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "USB Flash Drive",
+          "localSku": "UFD-128",
+          "marketplaceSku": "AM-128",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "unitWeightInGrams": 200,
+          "positionItemId": "pos_2"
+        },
+        {
+          "name": "Laptop Sleeve",
+          "localSku": "LS-150",
+          "marketplaceSku": "AMZ-LS-150",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "unitWeightInGrams": 800,
+          "positionItemId": "pos_3"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1010",
+      "totalItems": 2,
+      "totalWeight": 1000,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-132-AMZ",
+      "modifiedSku": "SKU-132-EVRI",
+      "purchaseDate": "2025-07-07T08:50:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Ava Walker",
+        "email": "ava@example.com",
+        "phone": "+447911012345",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Sheffield",
+        "postCode": "S1 1DA",
+        "state": "England",
+        "addressLine1": "33 High Street",
+        "addressLine2": "Apt 4"
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "localSku": "WE-200",
+          "marketplaceSku": "AMZ-WE-200",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "unitWeightInGrams": 600,
+          "positionItemId": "pos_1"
+        },
+        {
+          "name": "Cable Clip",
+          "localSku": "CC-050",
+          "marketplaceSku": "AMZ-CC-050",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "unitWeightInGrams": 400,
+          "positionItemId": "pos_2"
+        }
+      ]
+    },
+    {
+      "marketplaceOrderId": "order_1011",
+      "totalItems": 1,
+      "totalWeight": 500,
+      "weightUnit": "KG",
+      "currency": "GBP",
+      "originalSku": "SKU-133-AMZ",
+      "modifiedSku": "SKU-133-RM",
+      "purchaseDate": "2025-07-07T12:25:00Z",
+      "mergedOrderIds": [],
+      "address": {
+        "buyerName": "Mia Harris",
+        "email": "mia@example.com",
+        "phone": "+447911123456",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Newcastle",
+        "postCode": "NE1 1DE",
+        "state": "England",
+        "addressLine1": "18 Grey Street",
+        "addressLine2": ""
+      },
+      "items": [
+        {
+          "name": "Portable Charger",
+          "localSku": "PC-3000",
+          "marketplaceSku": "AMZ-PC-3000",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "unitWeightInGrams": 500,
+          "positionItemId": "pos_1"
+        }
+      ]
+    }
+  ]
+}

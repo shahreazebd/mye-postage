@@ -1,0 +1,147 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CarrierType {
+  EVRI
+  DHL
+  DPD
+  UPS
+  FEDEX
+  ROYAL_MAIL
+  AMAZON
+  TIKTOK
+}
+
+enum Marketplace {
+  AMAZON
+  EBAY
+  OTTO
+  SHOPIFY
+  WOOCOMMERCE
+  TIKTOK
+  TEMU
+  SHEIN
+  WALMART
+}
+
+enum CredentialType {
+  BEARER
+  BASIC
+  OAUTH
+}
+
+enum ShipmentStatus {
+  WAITING
+  PROCESSING
+  SUCCESS
+  FAILED
+}
+
+enum OrderStatus {
+  PROCESSING
+  SUCCESS
+  FAILED
+}
+
+enum DimensionUnit {
+  MM // Millimeter
+  CM // Centimeter
+  M // Meter
+  INCH // Inch
+}
+
+enum WeightUnit {
+  G // Gram
+  KG // Kilogram
+  OZ // Ounce
+  LB // Pound
+}
+
+model Carrier {
+  id                  String         @id @default(cuid(2))
+  name                String
+  type                CarrierType
+  companyId           String
+  shipperPhone        String
+  credentialType      CredentialType
+  credentials         Json
+  shipments           Shipment[]
+  isActive            Boolean        @default(true)
+  isDefault           Boolean        @default(false)
+  addressLine1        String?
+  addressLine2        String?
+  accountNumber       String?
+  shipperName         String?
+  shipperEmail        String?
+  countryCode         String?
+  city                String?
+  postalCode          String?
+  stateOrProvinceCode String?
+  createdBy           String?
+  updatedBy           String?
+  metadata            Json?
+  createdAt           DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+
+  @@index(fields: [companyId, type])
+}
+
+model Shipment {
+  id             String         @id @default(cuid(2))
+  companyId      String
+  storeId        String
+  storeName      String
+  carrierType    CarrierType
+  marketplace    Marketplace
+  status         ShipmentStatus @default(WAITING)
+  carrierId      String
+  orders         Order[]
+  metadata       Json?
+  batchLabelLink String?
+  carrier        Carrier        @relation(fields: [carrierId], references: [id], onDelete: Cascade)
+  createdBy      String?
+  updatedBy      String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  @@index(fields: [companyId, carrierType, marketplace])
+}
+
+model Order {
+  id                   String        @id @default(cuid(2))
+  marketplaceOrderId   String
+  totalItems           Int
+  totalWeight          Float
+  weightUnit           WeightUnit    @default(G)
+  dimensionUnit        DimensionUnit @default(CM)
+  currency             String
+  originalSku          String
+  modifiedSku          String
+  address              Json
+  items                Json
+  status               OrderStatus   @default(PROCESSING)
+  mergedOrderIds       String[]      @default([])
+  shipmentId           String
+  shipment             Shipment      @relation(fields: [shipmentId], references: [id], onDelete: Cascade)
+  purchaseDate         DateTime?
+  labelLink            String?
+  trackingNumber       String?
+  carrierlabelId       String?
+  carrierReturnLabelId String?
+  failureReasons       Json?
+  trackingDescription  String?
+  trackingDeliveredAt  DateTime?
+  trackingStatus       String?
+  metadata             Json?
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+
+  @@index(fields: [shipmentId])
+}

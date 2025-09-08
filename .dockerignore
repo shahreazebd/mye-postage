@@ -1,0 +1,29 @@
+# Node.js specific
+node_modules
+npm-debug.log
+package-lock.json
+
+# TypeScript output
+dist
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.md
+LICENSE

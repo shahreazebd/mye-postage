@@ -1,0 +1,30 @@
+echo '🔧 Running pre-commit checks...'
+
+# Run checks in parallel where possible
+run_checks() {
+  echo '📝 Checking Biome formatting...'
+  bun run lint || {
+    echo '❌ Biome check failed. Run `bun run format` to fix formatting issues.'
+    exit 1
+  }
+  echo '✅ Biome check passed.'
+
+  echo '🛠️ Checking TypeScript types...'
+  bun run typecheck || {
+    echo '❌ TypeScript type check failed. Review errors to fix type issues.'
+    exit 1
+  }
+  echo '✅ TypeScript type check passed.'
+
+  echo '🏗️ Building project...'
+  bun run build || {
+    echo '❌ Build failed. Review errors to resolve build issues.'
+    exit 1
+  }
+  echo '✅ Build passed.'
+}
+
+# Execute checks and capture output
+run_checks
+
+echo '✅ All checks passed. Proceeding with commit.'
