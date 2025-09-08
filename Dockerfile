@@ -8,6 +8,9 @@ COPY . .
 
 RUN bun i
 
+RUN bunx prisma generate
+
+
 EXPOSE 9099
 
 CMD ["bun", "start"]
