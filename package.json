@@ -8,7 +8,6 @@
     "lint": "bunx @biomejs/biome check",
     "typecheck": "tsc --noEmit",
     "format": "bunx @biomejs/biome format --write",
-    "build": "tsc && tsc-alias",
     "prepare": "husky",
     "db:local": "bunx prisma dev",
     "db:migrate": "bunx prisma migrate dev",
